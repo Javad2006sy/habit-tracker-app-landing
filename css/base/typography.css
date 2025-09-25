@@ -1,0 +1,42 @@
+/* Global Typography */
+
+/* Body typography */
+body {
+    font-family: var(--font-family-base);
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-base);
+    color: var(--color-dark);
+}
+
+/* Button typography */
+button {
+    font-size: var(--font-size-btn);
+    font-weight: var(--font-weight-btn);
+    color: var(--color-dark);
+}
+
+/* Typography utilities */
+
+/* Level 1 */
+.typo-level-1 {
+    font-size: var(--font-size-level-1);
+    font-weight: var(--font-weight-level-1);
+}
+
+/* Level 2 */
+.typo-level-2 {
+    font-size: var(--font-size-level-2);
+    font-weight: var(--font-weight-level-2);
+}
+
+/* Level 3 */
+.typo-level-3 {
+    font-size: var(--font-size-level-3);
+    font-weight: var(--font-weight-level-3);
+    color: var(--color-grey-text);
+}
+
+/* Line height utility */
+.typo-line-height {
+    line-height: var(--font-line-height);
+}
