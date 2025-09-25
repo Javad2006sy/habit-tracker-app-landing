@@ -1,0 +1,27 @@
+/* Reset Default Elements Styles */
+
+/* Browser Default Styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Hyperlink Underline */
+a {
+    text-decoration: none;
+}
+
+/* List Markers */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Form Elements */
+input,
+textarea {
+    font: inherit;
+    color: inherit;
+    outline: none;
+}
