@@ -15,10 +15,14 @@
     align-items: center;
 }
 
+.flex-space {
+    justify-content: space-between;
+}
+
 .flex-wrap {
     flex-wrap: wrap;
 }
 
-.flex-space {
-    justify-content: space-between;
+.flex-grow {
+    flex-grow: 1;
 }
