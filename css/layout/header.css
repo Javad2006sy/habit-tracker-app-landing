@@ -1,5 +1,9 @@
 /* Header Layout Styles */
 
+.header {
+    width: 100%;
+}
+
 /* Header Logo */
 .header__logo {
     width: 146px;
