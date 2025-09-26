@@ -1,0 +1,23 @@
+/* IconBox Component */
+
+.icon-box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+    flex-direction: column;
+    border-radius: var(--border-radius);
+    padding: 50px;
+    background-color: var(--color-light-grey);
+}
+
+.icon-box__title {
+    font-size: var(--font-size-level-2);
+    font-weight: 600;
+}
+
+.icon-box__content {
+    font-size: var(--font-size-level-3);
+    font-weight: var(--font-weight-level-3);
+    color: var(--color-grey-text);
+}
