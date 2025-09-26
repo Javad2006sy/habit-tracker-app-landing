@@ -142,3 +142,19 @@
     align-items: center;
     width: calc(100% + 110px);
 }
+
+/* Preview Section */
+.preview {
+    gap: var(--space-container-gap);
+    padding: 110px 70px;
+}
+
+.preview__title,
+.preview__subtitle {
+    width: 100%;
+}
+
+.preview__subtitle {
+    margin-top: calc(var(--space-container-gap) / -2);
+    margin-bottom: 80px;
+}
