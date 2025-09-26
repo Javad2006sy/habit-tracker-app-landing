@@ -1,0 +1,49 @@
+/* FeatureList Component
+
+    States(modifires):
+        state-include
+        state-locked
+*/
+
+/* Feature List */
+.feature-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 18px;
+    flex-direction: column;
+}
+
+.feature-list__item {
+    font-size: 1rem;
+    font-weight: 400;
+    padding-left: 32px;
+    position: relative;
+    display: block;
+}
+
+.feature-list__item::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* States */
+.feature-list__item--state-include::before {
+    background-image: url('../../assets/icons/tick.svg');
+}
+
+.feature-list__item--state-locked::before {
+    background-image: url('../../assets/icons/lock.svg');
+}
+
+.feature-list__item--state-locked {
+    color: var(--color-grey-text);
+}

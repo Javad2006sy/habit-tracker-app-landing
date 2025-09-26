@@ -1,0 +1,83 @@
+/* PriceTable Component
+
+    States(modifires):
+        plan-free
+        plan-premium
+        popular
+*/
+
+/* Price Table */
+.price-table {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 50px;
+    flex-direction: column;
+    padding: 70px;
+    border-radius: var(--border-radius);
+}
+
+/* Price Table Head */
+.price-table__head {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+    flex-direction: column;
+}
+
+.price-table__title {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.price-table__description {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--color-grey-text);
+}
+
+/* Price Table Price */
+.price-table__price {
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+
+.price-table__price span {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--color-grey-text);
+}
+
+/* Price Table Feature List */
+.price-table__feature-list {
+    margin-top: -25px;
+    flex-grow: 1;
+}
+
+/* States */
+.price-table--plan-free {
+    background-color: var(--color-light-grey);
+    color: var(--color-dark);
+}
+
+.price-table--plan-premium {
+    background: var(--color-dark);
+    color: var(--color-white);
+}
+
+/* Popular Badge */
+.price-table--popular {
+    position: relative;
+}
+
+.price-table--popular::before {
+    content: 'Popular';
+    background: var(--color-orange);
+    color: var(--color-white);
+    border-radius: 100px;
+    padding: 6px 12px;
+    position: absolute;
+    top: 70px;
+    right: 70px;
+}
