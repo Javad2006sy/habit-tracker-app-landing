@@ -1,6 +1,9 @@
 /* Global Root Variables */
 
 :root {
+    /* Page Layout */
+    --page-max-width: 1440px;
+
     /* Colors */
     --color-white: #FFF;
     --color-orange: #FE5D33;
