@@ -19,7 +19,7 @@
     <!-- Main Container -->
     <main class="main-container">
         <!-- Hero Section -->
-        <section class="hero">
+        <section class="hero flex flex-col">
             <!-- Header -->
             <header class="header flex flex-space flex-center">
                 <!-- Header Logo -->
@@ -42,6 +42,40 @@
                 <!-- Header Accout Button -->
                 <a href="#" class="button button--style-white">Log In</a>
             </header>
+
+            <!-- Hero Content -->
+            <div class="hero__content flex flex-center flex-col flex-grow">
+                <h1 class="hero__title typo-align-center">Build Better Habits. One Day at a Time.</h1>
+
+                <p class="hero__paragraph typo-align-center typo-line-height">Track your daily routines, stay consistent, and turn goals into habits — all in one beautiful app.</p>
+
+                <div class="hero__buttons flex flex-center flex-grow">
+                    <a href="#" class="button button--style-white">Get Started Free</a>
+                    <a href="#" class="button button--style-white hero__demo-button">
+                        <img src="./assets/icons/play.svg" alt="demo" class="icon">
+                        Watch Demo
+                    </a>
+                </div>
+
+                <div class="hero__users flex flex-center">
+                    <img src="./assets/icons/star.svg" alt="App Users" class="icon">
+                    <span>Loved by 1M+ users worldwide</span>
+                </div>
+            </div>
+
+            <!-- Hero Images -->
+            <img src="./assets/images/Goals.png" alt="App Goals Image" class="hero__image" data-app="goals">
+            <img src="./assets/images/Dashboard.png" alt="App Dashboard Image" class="hero__image" data-app="dashboard">
+            <img src="./assets/images/Settings.png" alt="App Settings Image" class="hero__image" data-app="settings">
+            <img src="./assets/images/Habit tracker.png" alt="App Habit Tracker Image" class="hero__image" data-app="habbit-tracker">
+
+            <!-- Hero Circles -->
+            <div class="hero__circle float-circle" style="--pos-x: 130px; --pos-y: 260px;"></div>
+            <div class="hero__circle float-circle" style="--pos-x: 280px; --pos-y: 405px; --color: var(--color-pink);"></div>
+            <div class="hero__circle float-circle" style="--pos-x: 295px; --pos-y: 457px; --color: var(--color-light-blue);"></div>
+            <div class="hero__circle float-circle" style="--pos-x: 937px; --pos-y: 580px; --color: var(--color-light-blue);"></div>
+            <div class="hero__circle float-circle" style="--pos-x: 1100px; --pos-y: 392px; --color: var(--color-dark);"></div>
+            <div class="hero__circle float-circle" style="--pos-x: 1150px; --pos-y: 260px; --color: var(--color-light-purple);"></div>
         </section>
     </main>
 
