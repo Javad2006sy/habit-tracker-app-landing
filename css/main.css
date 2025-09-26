@@ -146,7 +146,7 @@
 /* Preview Section */
 .preview {
     gap: var(--space-container-gap);
-    padding: 110px 70px;
+    padding: 110px 70px 55px;
 }
 
 .preview__title,
@@ -157,4 +157,24 @@
 .preview__subtitle {
     margin-top: calc(var(--space-container-gap) / -2);
     margin-bottom: 80px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    gap: var(--space-container-gap);
+    padding: 55px 70px;
+}
+
+.testimonials__title,
+.testimonials__subtitle {
+    width: 100%;
+}
+
+.testimonials__subtitle {
+    margin-top: calc((var(--space-container-gap) / -2));
+    margin-bottom: 70px;
+}
+
+.testimonials__testimonial {
+    width: 30%;
 }
