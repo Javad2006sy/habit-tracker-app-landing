@@ -1,0 +1,42 @@
+/* Button Component
+    
+    Props(vars):
+        --color-text
+        --color-bg
+    
+
+    States(modifires):
+        style-white
+        style-orange
+        style-dark
+*/
+
+.button {
+    border: none;
+    border-radius: var(--border-radius-btn);
+    color: var(--color-text, var(--color-white));
+    background-color: var(--color-bg, var(--color-orange));
+    padding: 13px 40px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    opacity: 0.95;
+}
+
+/* States */
+.button--style-white {
+    --color-text: var(--color-dark);
+    --color-bg: var(--color-white);
+}
+
+.button--style-orange {
+    --color-text: var(--color-white);
+    --color-bg: var(--color-orange);
+}
+
+.button--style-dark {
+    --color-text: var(--color-white);
+    --color-bg: var(--color-dark);
+}
