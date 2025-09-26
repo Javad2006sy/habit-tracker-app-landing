@@ -4,20 +4,17 @@
         --pos-x
         --pos-y
         --color
-        --opacity
 */
 
 .float-circle {
     --pos-x: 0;
     --pos-y: 0;
     --color: var(--color-white);
-    --opacity: 1;
 
-    width: 100px;
-    height: 100px;
+    width: 72px;
+    height: 72px;
     border-radius: 50%;
     background-color: var(--color);
-    opacity: var(--opacity);
     position: absolute;
     top: var(--pos-y);
     left: var(--pos-x);
