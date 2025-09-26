@@ -1,0 +1,25 @@
+/* FloatCircle Component
+    
+    Props(vars):
+        --pos-x
+        --pos-y
+        --color
+        --opacity
+*/
+
+.float-circle {
+    --pos-x: 0;
+    --pos-y: 0;
+    --color: var(--color-white);
+    --opacity: 1;
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: var(--color);
+    opacity: var(--opacity);
+    position: absolute;
+    top: var(--pos-y);
+    left: var(--pos-x);
+    transform: translate(-50%, -50%);
+}
