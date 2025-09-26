@@ -1,0 +1,14 @@
+/* Main Styles */
+
+/* Main Container */
+.main-container {
+    max-width: var(--page-max-width);
+    margin: 0 auto;
+}
+
+/* Hero Section */
+.hero {
+    background-color: var(--color-orange);
+    border-radius: var(--border-radius);
+    padding: 40px;
+}

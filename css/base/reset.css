@@ -10,6 +10,7 @@
 /* Hyperlink Underline */
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 /* List Markers */
