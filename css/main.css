@@ -92,3 +92,17 @@
     bottom: -150px;
     left: 25px;
 }
+
+/* Features Section */
+.features {
+    gap: var(--space-container-gap);
+    padding: 110px 70px 40px;
+}
+
+.features__subtitle {
+    align-self: center;
+}
+
+.features__icon-box {
+    width: 30%;
+}
