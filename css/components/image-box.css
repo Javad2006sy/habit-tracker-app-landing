@@ -1,0 +1,22 @@
+/* ImageBox Component
+    
+    Props(vars):
+        --color
+*/
+
+.image-box {
+    padding: 55px;
+    position: relative;
+}
+
+.image-box::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: var(--color, var(--color-orange));
+    z-index: -1;
+    mask-image: url('../../assets/icons/box-clip.svg');
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    mask-position: center;
+}
