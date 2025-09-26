@@ -106,3 +106,39 @@
 .features__icon-box {
     width: 30%;
 }
+
+/* Social Section */
+.social {
+    gap: 60px;
+    padding: 0 70px;
+}
+
+.social__content-section,
+.social__image-section {
+    width: 50%;
+}
+
+/* Social Image */
+.social__image-section {
+    background-color: var(--color-light-blue);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    padding: 75px 140px 0;
+}
+
+/* Social Content */
+.social__content {
+    font-size: 2.25rem;
+    font-weight: 500;
+}
+
+/* Social Companies */
+.social__companies {
+    padding: 35px 50px;
+    padding-right: 0;
+    background: var(--color-light-grey);
+    border-radius: var(--border-radius) 0 0 var(--border-radius);
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100% + 110px);
+}
