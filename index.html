@@ -3,17 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Base Stylesheets -->
     <link rel="stylesheet" href="./css/base/reset.css">
     <link rel="stylesheet" href="./css/base/fonts.css">
     <link rel="stylesheet" href="./css/base/variables.css">
     <link rel="stylesheet" href="./css/base/typography.css">
+
+    <!-- Layout Stylesheets -->
     <link rel="stylesheet" href="./css/layout/flex.css">
     <link rel="stylesheet" href="./css/layout/header.css">
+
+    <!-- Component Stylesheets -->
     <link rel="stylesheet" href="./css/components/button.css">
     <link rel="stylesheet" href="./css/components/float-circle.css">
     <link rel="stylesheet" href="./css/components/icon-box.css">
     <link rel="stylesheet" href="./css/components/image-box.css">
     <link rel="stylesheet" href="./css/components/testimonial.css">
+    <link rel="stylesheet" href="./css/components/price-table.css">
+    <link rel="stylesheet" href="./css/components/feature-list.css">
+
+    <!-- Main Stylesheet -->
     <link rel="stylesheet" href="./css/main.css">
     <title>Habbit Tracker App</title>
 </head>
@@ -227,6 +237,61 @@
 
                     <a href="#" class="button button--style-orange cta__action-button">Start Tracking - It's Free</a>
                 </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section class="price flex flex-wrap">
+            <h2 class="price__title typo-level-1">Simple, transparent pricing</h2>
+            <p class="price__subtitle typo-level-2">Start free. Upgrade when you're ready.</p>
+
+            <!-- Free Table -->
+            <div class="price__price-table price-table price-table--plan-free flex-grow">
+                <!-- Table Head -->
+                <div class="price-table__head">
+                    <h4 class="price-table__title">Free</h4>
+                    <span class="price-table__description">Perfect to get started</span>
+                </div>
+
+                <!-- Table Price -->
+                <span class="price-table__price">$0</span>
+
+                <!-- Table Feature List -->
+                <div class="price-table__feature-list feature-list">
+                    <span class="feature-list__item feature-list__item--state-include">Track unlimited habbits</span>
+                    <span class="feature-list__item feature-list__item--state-include">Daily reminders</span>
+                    <span class="feature-list__item feature-list__item--state-include">Streaks & basic analytics</span>
+                    <span class="feature-list__item feature-list__item--state-include">Light & dark mode</span>
+                    <span class="feature-list__item feature-list__item--state-locked">No credit card required</span>
+                </div>
+
+                <!-- Table Button -->
+                <a href="#" class="button button--style-dark price-table__button">Start for Free</a>
+            </div>
+
+            <!-- Premium Table -->
+            <div class="price__price-table price-table price-table--plan-premium price-table--popular flex-grow">
+                <!-- Table Head -->
+                <div class="price-table__head">
+                    <h4 class="price-table__title">Premium</h4>
+                    <span class="price-table__description">All features you need</span>
+                </div>
+
+                <!-- Table Price -->
+                <span class="price-table__price">$4.99 <span>/month</span></span>
+
+                <!-- Table Feature List -->
+                <div class="price-table__feature-list feature-list">
+                    <span class="feature-list__item feature-list__item--state-include">Everything in Free</span>
+                    <span class="feature-list__item feature-list__item--state-include">Advanced analytics</span>
+                    <span class="feature-list__item feature-list__item--state-include">Habbit templates & suggestions</span>
+                    <span class="feature-list__item feature-list__item--state-include">Cloud backup & device sync</span>
+                    <span class="feature-list__item feature-list__item--state-include">Premium themes and icons</span>
+                    <span class="feature-list__item feature-list__item--state-include">Priority support</span>
+                </div>
+
+                <!-- Table Button -->
+                <a href="#" class="button button--style-white price-table__button">Upgrade Now</a>
             </div>
         </section>
     </main>

@@ -223,3 +223,23 @@
     font-weight: 300;
     text-align: right;
 }
+
+/* Pricing Section */
+.price {
+    gap: var(--space-container-gap);
+    padding: 55px 70px;
+}
+
+.price__title,
+.price__subtitle {
+    width: 100%;
+}
+
+.price__subtitle {
+    margin-top: calc(var(--space-container-gap) / -2);
+    margin-bottom: 70px;
+}
+
+.price__price-table {
+    width: 48%;
+}
