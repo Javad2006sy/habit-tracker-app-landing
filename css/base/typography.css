@@ -41,3 +41,8 @@ button {
 .typo-line-height {
     line-height: var(--font-line-height);
 }
+
+/* Text align utilities */
+.typo-align-center {
+    text-align: center;
+}
