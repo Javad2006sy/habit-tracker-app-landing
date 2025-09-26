@@ -178,3 +178,48 @@
 .testimonials__testimonial {
     width: 30%;
 }
+
+/* CTA Section */
+.cta {
+    padding: 55px 70px;
+}
+
+.cta__inner {
+    gap: var(--space-container-gap);
+    background: var(--color-light-blue);
+    border-radius: var(--border-radius);
+    padding: 80px;
+}
+
+.cta__left-section,
+.cta__right-section {
+    width: 50%;
+}
+
+/* CTA Left Section */
+.cta__left-section {
+    gap: 100px;
+}
+
+.cta__logo {
+    width: 75px;
+    aspect-ratio: 1/1;
+}
+
+.cta__title {
+    font-size: 5.3rem;
+    font-weight: 400;
+}
+
+/* CTA Right Section */
+.cta__right-section {
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 60px;
+}
+
+.cta__content {
+    font-size: 1.25rem;
+    font-weight: 300;
+    text-align: right;
+}
