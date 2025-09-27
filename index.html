@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="./css/components/testimonial.css">
     <link rel="stylesheet" href="./css/components/price-table.css">
     <link rel="stylesheet" href="./css/components/feature-list.css">
+    <link rel="stylesheet" href="./css/components/accordion.css">
 
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="./css/main.css">
@@ -142,19 +143,19 @@
 
             <!-- Image Boxes -->
             <div class="preview__image-box image-box flex-grow" style="--color: var(--color-light-purple);">
-                <img src="./assets/images/Dashboard.png" alt="App Dashboard Preview" class="image-box__image">
+                <img src="./assets/images/Dashboard.png" alt="App Dashboard Preview" loading="lazy" class="image-box__image">
             </div>
 
             <div class="preview__image-box image-box flex-grow" style="--color: var(--color-orange);">
-                <img src="./assets/images/Habit tracker.png" alt="App Habbit Tracker Preview" class="image-box__image">
+                <img src="./assets/images/Habit tracker.png" alt="App Habbit Tracker Preview" loading="lazy" class="image-box__image">
             </div>
 
             <div class="preview__image-box image-box flex-grow" style="--color: var(--color-dark);">
-                <img src="./assets/images/Settings.png" alt="App Settings Preview" class="image-box__image">
+                <img src="./assets/images/Settings.png" alt="App Settings Preview" loading="lazy" class="image-box__image">
             </div>
 
             <div class="preview__image-box image-box flex-grow" style="--color: var(--color-light-blue);">
-                <img src="./assets/images/Goals.png" alt="App Goals Preivew" class="image-box__image">
+                <img src="./assets/images/Goals.png" alt="App Goals Preivew" loading="lazy" class="image-box__image">
             </div>
         </section>
 
@@ -293,6 +294,52 @@
                 <!-- Table Button -->
                 <a href="#" class="button button--style-white price-table__button">Upgrade Now</a>
             </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq flex flex-wrap">
+            <h2 class="faq__title typo-level-1 typo-align-center">Frequently Asked Questions</h2>
+            <p class="faq__subtitle typo-level-2 typo-align-center">Everything you need to know before getting started</p>
+
+            <!-- Accordions -->
+            <div class="faq__accordion accordion flex-grow" style="--color: var(--color-orange);">
+                <div class="accordion__head">
+                    <input type="checkbox" class="accordion__toggle">
+                    <span class="accordion__title">What do I get with Free?</span>
+                </div>
+                <div class="accordion__body">
+                    <p class="accordion__content typo-line-height">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, nemo pariatur, nam est dicta minus sequi, iste eius impedit dolorem ex omnis a perspiciatis. Harum, hic eligendi doloribus sapiente nostrum repudiandae sunt facere porro nisi at molestias sequi. Cumque repudiandae, fugit consequuntur mollitia amet voluptatibus aliquid sequi aut possimus obcaecati?</p>
+                </div>
+            </div>
+            <div class="faq__accordion accordion flex-grow" style="--color: var(--color-pink);">
+                <div class="accordion__head">
+                    <input type="checkbox" class="accordion__toggle">
+                    <span class="accordion__title">What do I get with Premuim?</span>
+                </div>
+                <div class="accordion__body">
+                    <p class="accordion__content typo-line-height">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, nemo pariatur, nam est dicta minus sequi, iste eius impedit dolorem ex omnis a perspiciatis. Harum, hic eligendi doloribus sapiente nostrum repudiandae sunt facere porro nisi at molestias sequi. Cumque repudiandae, fugit consequuntur mollitia amet voluptatibus aliquid sequi aut possimus obcaecati?</p>
+                </div>
+            </div>
+            <div class="faq__accordion accordion flex-grow" style="--color: var(--color-light-purple);">
+                <div class="accordion__head">
+                    <input type="checkbox" class="accordion__toggle">
+                    <span class="accordion__title">What happens if I miss a day?</span>
+                </div>
+                <div class="accordion__body">
+                    <p class="accordion__content typo-line-height">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, nemo pariatur, nam est dicta minus sequi, iste eius impedit dolorem ex omnis a perspiciatis. Harum, hic eligendi doloribus sapiente nostrum repudiandae sunt facere porro nisi at molestias sequi. Cumque repudiandae, fugit consequuntur mollitia amet voluptatibus aliquid sequi aut possimus obcaecati?</p>
+                </div>
+            </div>
+            <div class="faq__accordion accordion flex-grow" style="--color: var(--color-light-blue);">
+                <div class="accordion__head">
+                    <input type="checkbox" class="accordion__toggle">
+                    <span class="accordion__title">What happens if I miss a day?</span>
+                </div>
+                <div class="accordion__body">
+                    <p class="accordion__content typo-line-height">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, nemo pariatur, nam est dicta minus sequi, iste eius impedit dolorem ex omnis a perspiciatis. Harum, hic eligendi doloribus sapiente nostrum repudiandae sunt facere porro nisi at molestias sequi. Cumque repudiandae, fugit consequuntur mollitia amet voluptatibus aliquid sequi aut possimus obcaecati?</p>
+                </div>
+            </div>
+
+            <a href="#" class="faq__view-all">View All FAQs</a>
         </section>
     </main>
 

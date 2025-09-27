@@ -243,3 +243,33 @@
 .price__price-table {
     width: 48%;
 }
+
+/* FAQ Section */
+.faq {
+    gap: var(--space-container-gap);
+    padding: 55px 70px;
+    position: relative;
+}
+
+.faq__title,
+.faq__subtitle {
+    width: 100%;
+}
+
+.faq__subtitle {
+    margin-top: calc(var(--space-container-gap) / -2);
+    margin-bottom: 70px;
+}
+
+.faq__accordion {
+    width: 48%;
+}
+
+.faq__view-all {
+    font-size: 1.13rem;
+    font-weight: 400;
+    text-decoration: underline;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
