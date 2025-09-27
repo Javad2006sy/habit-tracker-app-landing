@@ -13,6 +13,7 @@
     <!-- Layout Stylesheets -->
     <link rel="stylesheet" href="./css/layout/flex.css">
     <link rel="stylesheet" href="./css/layout/header.css">
+    <link rel="stylesheet" href="./css/layout/footer.css">
 
     <!-- Component Stylesheets -->
     <link rel="stylesheet" href="./css/components/button.css">
@@ -341,6 +342,67 @@
 
             <a href="#" class="faq__view-all">View All FAQs</a>
         </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer__inner flex flex-col">
+                <!-- Main Section -->
+                <div class="footer__main flex">
+                    <!-- About Section -->
+                    <div class="footer__section footer__section-about flex flex-col">
+                        <div class="footer__logo">
+                            <img src="./assets/images/logo-main.png" alt="Company Logo" class="logo">
+                        </div>
+
+                        <p class="footer__about typo-level-3 typo-line-height">Track your daily routines, stay consistent, and turn goals into habits — all in one beautiful app.</p>
+
+                        <div class="footer__social-icons flex">
+                            <img src="./assets/icons/instagram.svg" alt="Instagram" class="footer__social-icon">
+                            <img src="./assets/icons/linkedin.svg" alt="Linked In" class="footer__social-icon">
+                        </div>
+                    </div>
+
+                    <!-- Product Quick Access List -->
+                    <nav class="footer__section footer__section-product flex flex-col">
+                        <span class="footer__section-title">Product</span>
+
+                        <ul class="footer__list">
+                            <li class="footer__list-item"><a href="#">Features</a></li>
+                            <li class="footer__list-item"><a href="#">Pricing</a></li>
+                            <li class="footer__list-item"><a href="#">FAQ</a></li>
+                            <li class="footer__list-item"><a href="#">Blog</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Company Quick Access List -->
+                    <nav class="footer__section footer__section-company flex flex-col flex-grow">
+                        <span class="footer__section-title">Company</span>
+
+                        <ul class="footer__list">
+                            <li class="footer__list-item"><a href="#">About</a></li>
+                            <li class="footer__list-item"><a href="#">Contact</a></li>
+                            <li class="footer__list-item"><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Newsletter Section -->
+                    <div class="footer__section footer__section-newsletter flex flex-col">
+                        <span class="footer__section-title">Newsletter</span>
+                        <span class="newsletter-description">Get tips & updates in your inbox</span>
+
+                        <form action="#" class="footer__newsletter flex flex-col">
+                            <input type="email" placeholder="Enter your email" class="footer__newsletter-field">
+                            <button type="submit" class="button button--style--orange">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Copyright Section -->
+                <div class="footer__copy">
+                    <span class="footer__copy-text type-level-3 typo-align-center">&copy; 2025 Habutus. All rights reserved.</span>
+                </div>
+            </div>
+        </footer>
     </main>
 
 </body>

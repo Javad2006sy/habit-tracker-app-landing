@@ -1,0 +1,106 @@
+/* Footer Layout Styles */
+
+.footer {
+    padding: 55px 70px 0;
+}
+
+.footer__inner {
+    background: var(--color-dark);
+    color: var(--color-grey-text);
+    border-radius: var(--border-radius);
+    gap: var(--space-container-gap);
+    padding: 70px 50px 30px;
+}
+
+/* Footer Sections */
+.footer__section {
+    align-items: flex-start;
+}
+
+.footer__section-product,
+.footer__section-company {
+    width: 20%;
+}
+
+/* Footer About Section */
+.footer__section-about {
+    width: 30%;
+    gap: 30px;
+}
+
+.footer__about {
+    padding-right: 90px;
+}
+
+.footer__social-icons {
+    gap: 20px;
+}
+
+.footer__social-icon {
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.footer__social-icon:hover {
+    opacity: 0.8;
+}
+
+/* Footer Newsletter Section */
+.footer__section-newsletter {
+    width: 25%;
+}
+
+.newsletter-description {
+    margin-bottom: 20px;
+}
+
+.footer__newsletter {
+    gap: 14px;
+}
+
+.footer__newsletter-field {
+    background: var(--color-grey-text);
+    color: var(--color-white);
+    padding: 10px 26px;
+    border: 1px solid var(--color-light-grey);
+    border-radius: 100px;
+}
+
+.footer__newsletter-field::placeholder {
+    color: var(--color-light-grey);
+}
+
+/* Footer List */
+.footer__list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 18px;
+    flex-direction: column;
+}
+
+.footer__list-item {
+    transition: opacity 0.3s ease;
+}
+
+.footer__list-item:hover {
+    opacity: 0.8;
+}
+
+/* Footer Section Title */
+.footer__section-title {
+    color: var(--color-white);
+    font-size: var(--font-size-level-3);
+    font-weight: 600;
+    margin-bottom: 28px;
+}
+
+/* Footer Copyright Section */
+.footer__copy {
+    border-top: 1px solid var(--color-grey-text);
+    padding-top: 33px;
+}
+
+.footer__copy-text {
+    display: block;
+}
