@@ -8,17 +8,17 @@ Habit Tracker App Landing Page is a sleek, modern landing page template for habi
 
 ## 🔗 **Live Demo**: [View Online](https://javad2006sy.github.io/habit-tracker-app-landing/)
 
-## 💻 Languages
+## Languages
 [![Skill Icons](https://skillicons.dev/icons?i=html,css&theme=light)](https://skillicons.dev/)
 
-## 🖼️ Overview
+## Overview
 ![Design Overview](./cover.png)
 
 ## 🎨 Figma File
 figma file link: [Habitus – Habit Tracker App Landing Page](https://www.figma.com/community/file/1507106587522840897)
 
 
-## 📋 Table of Contents
+## Table of Contents
 - [Features](#features)
 - [Quick Setup](#quick-setup)
 - [Project Structure](#project-structure)
@@ -29,14 +29,15 @@ figma file link: [Habitus – Habit Tracker App Landing Page](https://www.figma.
 - [To Do List](#to-do-list)
 
 
-## 🌟 Features
-### 🎨 Pixel-perfect Figma-to-code implementation
-### ⚡ Lightweight, no frameworks — pure HTML/CSS
-### 📂 Organized folder structure for scalability
-### 💡 Easy customization with CSS variables
+## Features
+
+#### 🎨 Pixel-perfect Figma-to-code implementation
+#### ⚡ Lightweight, no frameworks — pure HTML/CSS
+#### 📂 Organized folder structure for scalability
+#### 💡 Easy customization with CSS variables
 
 
-## 🚀 Quick Setup
+## Quick Setup
 Clone this [repository](https://github.com/Javad2006sy/habit-tracker-app-landing) by running this command in terminal:
 
 ```terminal
@@ -52,7 +53,7 @@ cd habit-tracker-app-landing
 Or you can directly download project source: [download](https://github.com/Javad2006sy/habit-tracker-app-landing/archive/refs/heads/main.zip)
 
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 habit-tracker-app-landing/
@@ -84,12 +85,12 @@ habit-tracker-app-landing/
 └── README.md                   # this file
 ```
 
-## 🤝 Contributing
+## Contributing
 Contributions are welcome!  
 Feel free to open an issue or submit a pull request.
 
 
-## 🎨 Style Guide
+## Style Guide
 
 ### Colors
 - White: `#FFF`
@@ -114,7 +115,7 @@ Feel free to open an issue or submit a pull request.
 - Base Font Weight: `400`
 
 
-## 🛠️ Customization
+## Customization
 You can customize colors in `css/base/variables.css`:
 
 ```css
@@ -152,7 +153,7 @@ You can also customize font variables in this file:
 }
 ```
 
-## 📷 Current Version Overview
+## Current Version Overview
 Here is a full page screenshot
 
 ![Full Page Screenshot](./screenshot.png)
@@ -161,7 +162,7 @@ Here is a full page screenshot
 > I made a few small changes to make the design look better.
 
 
-## 📃 To Do List
+## To Do List
 - [ ] Responsive for tablet devices
 - [ ] Responsive for mobile devices
 - [ ] Refactor & optimize code
